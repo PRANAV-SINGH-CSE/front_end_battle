@@ -1455,9 +1455,11 @@ img {
     min-height: 950px;
   }
 
-  .hero-console {
+  .hero-console,
+  .hero-console.is-visible {
     width: min(420px, 100%);
-    margin-bottom: 18px;
+    margin: 32px auto 18px;
+    translate: 0 0;
   }
 
   .bento-grid {
@@ -2885,9 +2887,11 @@ img {
     width: auto;
     padding: 0 24px;
   }
-  .hero-console {
-    translate: 0 -12px;
+  .hero-console,
+  .hero-console.is-visible {
+    translate: 0 0;
     margin-bottom: 24px;
+    margin-top: 24px;
     padding: 16px;
   }
 
